@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spa-Contact-Us</title>
+    <title>Spa-Testimonials</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="spa.js"></script> 
 </head>
 <body>
     <header>
@@ -23,9 +24,28 @@
     </header>
 
     <main>
-        <p>Under Construction</p>
-        <input type="email" placeholder="Enter email here">
-        <button>Send</button>
+        
+        <div id="comment-image">
+            <img src="/spa-images/happy-customers.jpg" height=300>
+       </div> 
+        <h1>Testimonials</h1>
+        
+        <h2>Tell us what you think!</h2>
+
+         <div id="commentSection">
+            <div class="comment"><span class="avatar">CM:</span>
+                <span class="text">Service was amazing!</span></div>
+        </div>
+    
+    
+     
+     <div id="inputSection">
+      <input id="initials" type="text" maxlength="3" placeholder="Initials" />
+      <input id="commentText" type="text" maxlength="100" placeholder="Comment" />
+      <button id="addCommentButton" onclick="addComment()">Add comment</button>
+     </div>
+
+         
     </main>
 
 
